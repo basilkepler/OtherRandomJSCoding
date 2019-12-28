@@ -1,0 +1,6 @@
+we are exploring map and foreach method .
+we are given this array.
+arr = [1,3,4,5]
+now we need to use map and foreach to proces this array. 
+the processing to be done is multiplying each element by 2.
+At the end we need to compare and make observations between the two codes and the two results
