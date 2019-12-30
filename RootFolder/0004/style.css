@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.menu-container{
+    height: 100vh;
+    background: #000;
+}
+
+.nav-bar{
+    display: flex;
+    background: #222;
+    position: fixed;
+    width: 100vw;
+
+
+}
