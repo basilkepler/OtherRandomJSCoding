@@ -1,16 +1,17 @@
-const willGetYouADog =  new Promise((resolve,reject){
+const willGetYouADog =  new Promise((resolve,reject) => {
     x = Math.random(); 
-    if (x < 1){
+    console.log('x:', x)
+    if (x < 0.5){
         resolve()
     }
     else {
         reject()
     }
-})
+});
 
-willGetYouADog.then(){
-    console.log('success:')
-}
-willGetYouADog.catch(){
-    console.log('failure:')
-}
+willGetYouADog.then(() => {
+    console.log('resolved' )
+})
+willGetYouADog.catch(() => {
+    console.log('rejected' )
+})
