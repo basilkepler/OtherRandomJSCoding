@@ -1,0 +1,2 @@
+promises in javascript
+show the example of get a dog with random decision making on reject resolve.
