@@ -1,1 +1,1 @@
-demonstrate usage of call method
+demonstrate usage of call method, apply method, bind method.
