@@ -1,0 +1,1 @@
+demonstrate single threaded limitation of js by writing a blocking code
